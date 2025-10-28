@@ -1,3 +1,10 @@
+export const NAV_LINKS = [
+  { name: '홈', path: '/' },
+  { name: '제품소개', path: '/products' },
+  { name: '솔루션', path: '/solutions' },
+  { name: '회사소개', path: '/about' },
+];
+
 export const PRODUCTS = [
   {
     id: 'CC1',
@@ -16,14 +23,14 @@ export const PRODUCTS = [
   {
     id: 'SH1',
     name: 'LIBERTY SH1 (청소로봇)',
-    image: 'https://i.postimg.cc/7hMRVtGm/LIBERTY-SH1-BLACK.png',
+    image: 'https://i.postimg.cc/9F4y5QkZ/LIBERTY-SH1-BLACK.png',
     type: 'Cleaner',
     path: '/product/SH1',
   },
   {
     id: 'T300',
     name: 'LIBERTY T300 (물류로봇)',
-    image: 'https://i.postimg.cc/x8050f8g/LIBERTY-T300-WHITE.png',
+    image: 'https://i.postimg.cc/XvL4QY3J/LIBERTY_T300_WHITE.png',
     type: 'Logistics',
     path: '/product/T300',
   },
